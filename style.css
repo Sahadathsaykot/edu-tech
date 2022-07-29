@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-weight: 300;
+}
+.navbar-brand{
+    color: rgb(45, 45, 45);
+    font-size: 28px;
+    font-weight: 600;
+}
+.nav-link{
+    color: rgb(59, 59, 59);
+}
+
+.carousel-caption{
+    margin-top: 6rem ;
+    margin-bottom: 4rem;
+}
+
+.modal-dialog{
+    max-width: 1200px;
+    max-height: 1200px;
+}
+.star{
+    color: rgb(255, 200, 0);
+}
+.leftArrow{
+    top:170px;
+    left: -5px;
+    font-size: 30px;
+    color: #78bfe5d0
+}
+.rightArrow{
+    top:170px;
+    right:-5px;
+    font-size: 30px;
+    color: #0b9be8
+}
+
+.accordion-item{
+    border: none;
+}
+
+.companiesSection{
+    margin: 4rem 0;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
+
+@media screen and (max-width:600px) {
+    .btn-hidden{
+        display: none;
+    }
+    .carousel-item{
+        height: ;
+    }
+    .carousel-caption{
+        width: 100%;
+        margin-bottom: 0rem;
+    }
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    .hiddenPart{
+        display: none;
+    }
+    .companiesSection{
+        display: none;
+    }
+    .leftArrow,.rightArrow{
+        display: none;
+    }
+}
+@media screen and (min-width:600px) and (max-width:992px) {
+    
+    .carousel-caption{
+        width: 80%;
+        margin-bottom: 0rem;
+    }
+    .carousel-caption h1{
+        font-size: 25px;
+    }
+    .hiddenPart{
+        display: none;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .companiesSection{
+        display: none;
+    }
+    .carousel-caption{
+        width: 100%;
+        margin: 0;
+    }
+    .leftArrow,.rightArrow{
+        display: none;
+    }
+    
+    
+}
